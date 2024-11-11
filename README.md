@@ -7,8 +7,9 @@ This script will then check the distance of all anchors in the scene from the us
 
 With the current solution, I have tested performance by changing the room size, increasing the number of anchors and varying the distance. Good results have been obtained in each of them.
 
-Considerations: Applying the Singleton pattern may seem a bit unnecessary because the scene lacks complexity and it might be simpler to reference it through the inspector. But if the project is expanded it can be useful to have this static instance, for example, if we want the colour of each anchor to vary depending on some global variable.
+## Considerations
+Applying the Singleton pattern may seem a bit unnecessary because the scene lacks complexity and it might be simpler to reference it through the inspector. But if the project is expanded it can be useful to have this static instance, for example, if we want the colour of each anchor to vary depending on some global variable.
 
 
-Another consideration is that I considered using Colliders trigger, but it introduced too much complexity, for the little benefit that would be obtained in terms of performance.
+Indeed I considered using Colliders trigger, but it introduced too much complexity, for the little benefit that would be obtained in terms of performance.
 
